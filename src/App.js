@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Navigationbar from './Navigationbar';
+
 
 function App() {
   return (
     <div className="App">
+      <Navigationbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -16,6 +19,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
         </a>
       </header>
     </div>
