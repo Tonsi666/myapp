@@ -1,0 +1,16 @@
+.myBtn {
+  background-color: rgb(239, 239, 239);
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  width: max-content;
+  float: right;
+  margin-left: 8px;
+  &:hover {
+    background-color: rgb(172, 172, 172);
+  }
+}

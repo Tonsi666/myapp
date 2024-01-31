@@ -1,0 +1,21 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  width: 912px;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.grid_container {
+  margin-top: 2px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: auto auto auto;
+}
+
+.gallery_img {
+  width: 300px;
+  height: 300px;
+  margin: 2px;
+}
