@@ -19,3 +19,23 @@
   height: 300px;
   margin: 2px;
 }
+
+@media screen and (max-width: 911px) {
+  .grid_container {
+    grid-template-columns: auto auto;
+  }
+
+  .gallery {
+    width: 608px;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  .grid_container {
+    grid-template-columns: auto;
+  }
+
+  .gallery {
+    width: 304px;
+  }
+}

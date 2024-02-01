@@ -2,3 +2,23 @@
   margin: 0px;
   font-family: arial;
 }
+
+@media screen and (max-width: 911px) {
+  .column {
+    grid-template-columns: auto auto;
+  }
+
+  .gallery {
+    width: 608px;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  .column {
+    grid-template-columns: auto;
+  }
+
+  .gallery {
+    width: 304px;
+  }
+}

@@ -13,3 +13,10 @@
   color: #737373;
   width: 30%;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
