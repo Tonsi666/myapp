@@ -46,7 +46,7 @@ button:hover {
   background-color: rgb(172, 172, 172);
 } */
 
-.Login {
+/* .Login {
   background-color: var(--primary-color);
   border: none;
   border-radius: 5px;
@@ -59,7 +59,7 @@ button:hover {
 
 .Login:hover {
   background-color: var(--secondary-color);
-}
+} */
 
 .signup {
   background-color: white;

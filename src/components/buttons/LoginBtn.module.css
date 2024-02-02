@@ -1,0 +1,14 @@
+.Login {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Login:hover {
+  background-color: var(--secondary-color);
+}

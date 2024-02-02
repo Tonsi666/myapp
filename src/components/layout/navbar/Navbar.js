@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import logo from "../../../Bilder/logo.png";
+import LoginBtn from "../../buttons/LoginBtn";
 
 function Navbar() {
   return (
@@ -9,12 +10,13 @@ function Navbar() {
           <img className={styles.logo} src={logo} alt="logo" />
         </a>
         <div className={styles.container}>
-          <button
+          <LoginBtn />
+          {/* <button
             className={styles.Login}
             onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/login.html';"
           >
             Login
-          </button>
+          </button> */}
           <button
             className={styles.signup}
             onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/signup.html';"
