@@ -1,8 +1,9 @@
 import styles from "./Body.module.css";
 import techstarter_logo from "../../../Bilder/techstarter_gmbh_logo.jpg";
 import ClassicBtn from "../../buttons/classic/ClassicBtn";
+import Profile from "./Profile";
 
-function Profil() {
+function Profil({ data }) {
   return (
     <div className={styles.flexbox}>
       <div className={styles.profil}>
@@ -15,15 +16,16 @@ function Profil() {
         </div>
         <div className={styles.profil_kram}>
           <div className={styles.profil_info}>
-            <label> Techstarter</label>
+            {/* <label> Techstarter</label>
             <ClassicBtn text="..." />
             <ClassicBtn text="Nachricht senden" />
-            <ClassicBtn text="folgen" />
+            <ClassicBtn text="folgen" /> */}
           </div>
           <div className={styles.profil_stats}>
-            <label className={styles.stat}> 4 Beiträge </label>
+            <Profile userProfile={data.profile}></Profile>
+            {/* <label className={styles.stat}> 4 Beiträge </label>
             <label className={styles.stat}> 73 Follower </label>
-            <label className={styles.stat}> 20 gefolgt </label>
+            <label className={styles.stat}> 20 gefolgt </label> */}
           </div>
           <div className={styles.profil_bio}>
             <h5>T E C H S T A R T E R</h5>
